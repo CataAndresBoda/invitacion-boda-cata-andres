@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página de Canva</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #f0f0f0;
-        }
-
-        iframe {
-            border: none;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <title>Carrusel Elegante</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Aquí pega el iframe que te dio Canva -->
-    <iframe src="https://www.canva.com/design/DAGvifTaWyY/jz9SCOXy5d59gLoEheqzFg/view?embed" allowfullscreen></iframe>
-</body>
 
+    <section class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+            <div class="carousel-item"><img src="img/img_1.jpeg" alt="Imagen 1"></div>
+            <div class="carousel-item"><img src="img/img_2.jpeg" alt="Imagen 2"></div>
+            <div class="carousel-item"><img src="img/img_3.jpeg" alt="Imagen 3"></div>
+            <div class="carousel-item"><img src="img/img_4.jpeg" alt="Imagen 4"></div>
+            <div class="carousel-item"><img src="img/img_5.jpeg" alt="Imagen 5"></div>
+            <div class="carousel-item"><img src="img/img_6.jpeg" alt="Imagen 6"></div>
+            <div class="carousel-item"><img src="img/img_7.jpeg" alt="Imagen 7"></div>
+            <div class="carousel-item"><img src="img/img_8.jpeg" alt="Imagen 8"></div>
+            <div class="carousel-item"><img src="img/img_9.jpeg" alt="Imagen 9"></div>
+            <div class="carousel-item"><img src="img/img_10.jpeg" alt="Imagen 10"></div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
